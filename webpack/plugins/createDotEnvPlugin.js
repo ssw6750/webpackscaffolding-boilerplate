@@ -1,6 +1,6 @@
-import DotEnv from 'dotenv-webpack';
+const DotEnv = require('dotenv-webpack');
 
-export const createDotEnvPlugin = (options = {}) => {
+const createDotEnvPlugin = (options = {}) => {
   const config = Object.assign(
     {
       path: './.env',
@@ -9,3 +9,5 @@ export const createDotEnvPlugin = (options = {}) => {
   );
   return new DotEnv(config);
 };
+
+module.exports = createDotEnvPlugin;

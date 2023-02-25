@@ -1,4 +1,6 @@
-import { createDotEnvPlugin } from './plugins/index.js';
+// import createDotEnvPlugin from './plugins/index.js';
+const createDotEnvPlugin = require('./plugins/createDotEnvPlugin');
+const createHtmlPlugin = require('./plugins/createHtmlPlugin');
 const { resolve } = require('node:path');
 
 const commonConfig = {
@@ -9,7 +11,13 @@ const commonConfig = {
       '@': resolve('src'),
     },
   },
-  plugins: [createDotEnvPlugin()].filter(Boolean),
+  plugins: [createDotEnvPlugin(), createHtmlPlugin(/* options */)].filter(
+    Boolean
+  ),
+  // plugins: [
+  //   [createDotEnvPlugin()].filter(Boolean),
+  //   createHtmlPlugin(/* options */),
+  // ],
   entry: {
     main: resolve(__dirname, '../src/index.jsx'),
   },
