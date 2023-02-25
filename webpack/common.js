@@ -1,4 +1,4 @@
-const { resolve } = require("node:path");
+const { resolve } = require('node:path');
 
 const commonConfig = {
   target: ['web', 'browserslist'],
@@ -28,6 +28,7 @@ const commonConfig = {
               sourceMap: true,
             },
           },
+          'postcss-loader',
         ],
       },
     ],
