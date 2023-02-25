@@ -1,6 +1,8 @@
 // import createDotEnvPlugin from './plugins/index.js';
 const createDotEnvPlugin = require('./plugins/createDotEnvPlugin');
 const createHtmlPlugin = require('./plugins/createHtmlPlugin');
+const styleLoader = require('./loaders/styleLoader');
+const styleModuleLoader = require('./loaders/styleModuleLoader');
 const { resolve } = require('node:path');
 
 const commonConfig = {
@@ -11,13 +13,10 @@ const commonConfig = {
       '@': resolve('src'),
     },
   },
-  plugins: [createDotEnvPlugin(), createHtmlPlugin(/* options */)].filter(
-    Boolean
-  ),
-  // plugins: [
-  //   [createDotEnvPlugin()].filter(Boolean),
-  //   createHtmlPlugin(/* options */),
-  // ],
+  plugins: [
+    createDotEnvPlugin(),
+    createHtmlPlugin(/* options */),
+  ].filter(Boolean),
   entry: {
     main: resolve(__dirname, '../src/index.jsx'),
   },
@@ -31,40 +30,8 @@ const commonConfig = {
         // 어떤 로더를 사용해 파일을 변환할 것인가?
         use: 'babel-loader',
       },
-      {
-        test: /\.(css|s[ac]ss)$/i,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
-          'postcss-loader',
-          'sass-loader',
-        ],
-        exclude: /\.module\.(css|s[ac]ss)$/i,
-      },
-      {
-        test: /\.module\.(css|s[ac]ss)$/i,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-              importLoaders: 1,
-              modules: {
-                localIdentName: '[folder]_[local]__[hash:base64:5]',
-              },
-            },
-          },
-          'postcss-loader',
-          'sass-loader',
-        ],
-        include: /\.module\.(css|s[ac]ss)$/i,
-      },
+      styleLoader,
+      styleModuleLoader,
       {
         test: /\.(jpe?g|png|gif|webp|bmp)$/i,
         type: 'asset/resource',
