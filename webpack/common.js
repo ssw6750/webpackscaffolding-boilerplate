@@ -30,6 +30,25 @@ const commonConfig = {
           },
           'postcss-loader',
         ],
+        exclude: /\.module\.css$/i,
+      },
+      {
+        test: /\.module\.css$/i,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+              importLoaders: 1,
+              modules: {
+                localIdentName: '[folder]_[local]__[hash:base64:5]',
+              },
+            },
+          },
+          'postcss-loader',
+        ],
+        include: /\.module\.css$/i,
       },
     ],
   },
