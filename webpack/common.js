@@ -4,6 +4,9 @@ const commonConfig = {
   target: ['web', 'browserslist'],
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.wasm'],
+    alias: {
+      '@': resolve('src'),
+    },
   },
   entry: {
     main: resolve(__dirname, '../src/index.jsx'),
