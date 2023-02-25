@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import testPng from '../assets/test.png'
+import testPng from '../assets/test.png';
+import testSvg from '../assets/react.svg';
+import { ReactComponent as TestSvgComponent } from '../assets/react.svg';
 
 
 const App = ({ message: initialMessage }) => {
@@ -11,6 +13,9 @@ const App = ({ message: initialMessage }) => {
       <h1>{message}</h1>
       {testPng}
       <img src={testPng}></img>
+      {testSvg}
+      <TestSvgComponent></TestSvgComponent>
+      
     </div>
   );
 };
