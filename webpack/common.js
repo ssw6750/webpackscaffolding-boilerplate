@@ -19,7 +19,7 @@ const commonConfig = {
         use: 'babel-loader',
       },
       {
-        test: /\.css$/i,
+        test: /\.(css|s[ac]ss)$/i,
         use: [
           'style-loader',
           {
@@ -29,11 +29,12 @@ const commonConfig = {
             },
           },
           'postcss-loader',
+          'sass-loader',
         ],
-        exclude: /\.module\.css$/i,
+        exclude: /\.module\.(css|s[ac]ss)$/i,
       },
       {
-        test: /\.module\.css$/i,
+        test: /\.module\.(css|s[ac]ss)$/i,
         use: [
           'style-loader',
           {
@@ -47,8 +48,9 @@ const commonConfig = {
             },
           },
           'postcss-loader',
+          'sass-loader',
         ],
-        include: /\.module\.css$/i,
+        include: /\.module\.(css|s[ac]ss)$/i,
       },
     ],
   },
