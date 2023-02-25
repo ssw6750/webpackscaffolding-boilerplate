@@ -1,3 +1,4 @@
+import { createDotEnvPlugin } from './plugins/index.js';
 const { resolve } = require('node:path');
 
 const commonConfig = {
@@ -8,6 +9,7 @@ const commonConfig = {
       '@': resolve('src'),
     },
   },
+  plugins: [createDotEnvPlugin()].filter(Boolean),
   entry: {
     main: resolve(__dirname, '../src/index.jsx'),
   },
