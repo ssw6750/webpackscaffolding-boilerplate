@@ -28,6 +28,7 @@ specifiers:
   sass: ^1.58.3
   sass-loader: ^13.2.0
   style-loader: ^3.3.1
+  terser-webpack-plugin: ^5.3.6
   webpack: ^5.75.0
   webpack-cli: ^5.0.1
   webpack-dev-server: ^4.11.1
@@ -63,6 +64,7 @@ devDependencies:
   sass: 1.58.3
   sass-loader: 13.2.0_sass@1.58.3+webpack@5.75.0
   style-loader: 3.3.1_webpack@5.75.0
+  terser-webpack-plugin: 5.3.6_webpack@5.75.0
   webpack: 5.75.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
   webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq

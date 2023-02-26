@@ -4,6 +4,7 @@ const commonConfig = require('./common');
 const createCopyPlugin = require('./plugins/createCopyPlugin');
 const { createCssExtractPlugin } = require('./plugins/createCssExtractPlugin');
 const createCssMinimizerPlugin = require('./plugins/createCssMinimizerPlugin');
+const createTerserPlugin = require('./plugins/createTerserPlugin');
 
 const buildConfig = merge(commonConfig, {
   mode: 'production',
@@ -14,7 +15,8 @@ const buildConfig = merge(commonConfig, {
     createCssExtractPlugin(),
   ].filter(Boolean),
   optimization: {
-    minimizer: [createCssMinimizerPlugin()],
+    minimize: true,
+    minimizer: [createCssMinimizerPlugin(), createTerserPlugin()],
   },
   output: {
     path: resolve(__dirname, '../build'),
