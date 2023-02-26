@@ -2,14 +2,7 @@ const createDotEnvPlugin = require('../plugins/createDotEnvPlugin');
 const { cssExtractLoader } = require('../plugins/createCssExtractPlugin');
 const { env } = require('node:process');
 
-console.log(env.NODE_ENV);
-// console.log(createDotEnvPlugin);
-
-// console.log(env.NODE_ENV.includes('development'));
-// let isDev = env.NODE_ENV.includes('development');
-let isDev = true
-
-
+let isDev = env.NODE_ENV.includes('development');
 
 const styleLoader = {
   test: /\.s?[ac]ss$/i,

@@ -4,8 +4,8 @@
   "description": "React 개발 환경 매뉴얼 구성 (with Webpack)",
   "scripts": {
     "start": "npm run dev -- --open",
-    "dev": "webpack serve --config  ./webpack/dev.js",
-    "build": "webpack build --progress --config ./webpack/build.js"
+    "dev": "webpack serve --config  ./webpack/dev.js --node-env development",
+    "build": "webpack build --progress --config ./webpack/build.js --node-env product"
   },
   "keywords": [
     "react",

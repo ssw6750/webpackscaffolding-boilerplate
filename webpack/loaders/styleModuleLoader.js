@@ -1,9 +1,7 @@
 const { env } = require('node:process');
 const { cssExtractLoader } = require('../plugins/createCssExtractPlugin');
 
-// let isDev = env.NODE_ENV.includes('development');
-let isDev = true;
-
+let isDev = env.NODE_ENV.includes('development');
 
 const styleModuleLoader = {
   test: /\.module\.s?[ac]css$/i,
