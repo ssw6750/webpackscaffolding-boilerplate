@@ -13,12 +13,16 @@ const commonConfig = {
       '@': resolve('src'),
     },
   },
-  plugins: [
-    createDotEnvPlugin(),
-    createHtmlPlugin(/* options */),
-  ].filter(Boolean),
+  plugins: [createDotEnvPlugin(), createHtmlPlugin(/* options */)].filter(
+    Boolean
+  ),
   entry: {
-    main: resolve(__dirname, '../src/index.jsx'),
+    // main: resolve(__dirname, '../src/index.jsx'),
+    main: {
+      import: resolve(__dirname, '../src/index.jsx'),
+      dependOn: ['vendor'],
+    },
+    vendor: ['react', 'react-dom'],
   },
   module: {
     rules: [
