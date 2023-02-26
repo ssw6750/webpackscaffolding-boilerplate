@@ -6,6 +6,7 @@ const { createCssExtractPlugin } = require('./plugins/createCssExtractPlugin');
 const createCssMinimizerPlugin = require('./plugins/createCssMinimizerPlugin');
 const createTerserPlugin = require('./plugins/createTerserPlugin');
 const ImageMinimizerPlugin = require('./plugins/createImageMinPlugin');
+const createCleanPlugin = require('./plugins/createCleanPlugin');
 
 const buildConfig = merge(commonConfig, {
   mode: 'production',
@@ -21,6 +22,7 @@ const buildConfig = merge(commonConfig, {
       createCssMinimizerPlugin(),
       createTerserPlugin(),
       ImageMinimizerPlugin(),
+      createCleanPlugin(),
     ],
   },
   output: {
