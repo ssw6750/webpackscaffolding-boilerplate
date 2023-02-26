@@ -8,6 +8,7 @@ const createTerserPlugin = require('./plugins/createTerserPlugin');
 const ImageMinimizerPlugin = require('./plugins/createImageMinPlugin');
 const createCleanPlugin = require('./plugins/createCleanPlugin');
 const createBundleAnalyzerPlugin = require('./plugins/createBundleAnalyzerPlugin');
+const createESBuildMinifyPlugin = require('./plugins/createESBuildMinifyPlugin');
 
 const buildConfig = merge(commonConfig, {
   mode: 'production',
@@ -25,6 +26,7 @@ const buildConfig = merge(commonConfig, {
       createTerserPlugin(),
       ImageMinimizerPlugin(),
       createCleanPlugin(),
+      createESBuildMinifyPlugin(),
     ],
   },
   output: {

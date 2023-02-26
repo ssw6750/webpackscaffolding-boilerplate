@@ -1,8 +1,8 @@
 {
-  "hash": "8609669d1278492906d9",
+  "hash": "f52933ceea09ce62d6e8",
   "version": "5.75.0",
-  "time": 9438,
-  "builtAt": 1677413190900,
+  "time": 9239,
+  "builtAt": 1677415232469,
   "publicPath": "auto",
   "outputPath": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\build",
   "assetsByChunkName": {
@@ -119,17 +119,14 @@
     {
       "type": "asset",
       "name": "main.min.js",
-      "size": 3176,
+      "size": 2521,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "javascriptModule": false,
         "minimized": true,
-        "related": {
-          "license": "main.min.js.LICENSE.txt"
-        },
-        "size": 3176
+        "size": 2521
       },
       "chunkNames": [
         "main"
@@ -137,29 +134,7 @@
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "license",
-          "name": "main.min.js.LICENSE.txt",
-          "size": 249,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "extractedComments": true,
-            "size": 249
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [],
-          "isOverSizeLimit": false
-        }
-      ],
+      "related": {},
       "chunks": [
         179
       ],
@@ -271,9 +246,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 141073,
+      "size": 139854,
       "sizes": {
-        "javascript": 5327,
+        "javascript": 4108,
         "asset": 133664,
         "css/mini-extract": 2082
       },
@@ -292,7 +267,7 @@
         "static/react.f97109b2930b86db9569.svg",
         "static/test.ee15f484261cdbde6316.png"
       ],
-      "hash": "dd61c046eb61aa5a9265",
+      "hash": "92fb84f1ce9a01b3447c",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [],
@@ -329,12 +304,12 @@
           "issuerName": "./assets/react.svg",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "name": "./src/App.jsx",
               "id": null
             },
@@ -369,7 +344,7 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -379,7 +354,7 @@
               "explanation": "",
               "userRequest": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
               "loc": "39:15-117",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             }
           ],
@@ -412,16 +387,16 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "issuerName": "./src/App.jsx",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "name": "./src/App.jsx",
               "id": null
             }
@@ -437,10 +412,10 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
@@ -451,16 +426,16 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../assets/test.png",
-              "loc": "16:8-15",
+              "loc": "7:132-139",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -493,11 +468,11 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "issuerName": "./src/index.jsx",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             }
@@ -513,31 +488,31 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "react-dom/client",
               "loc": "2:0-46",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "react-dom/client",
-              "loc": "7:0-10",
-              "moduleId": 267,
+              "loc": "5:0-10",
+              "moduleId": 132,
               "resolvedModuleId": null
             }
           ],
@@ -556,340 +531,23 @@
         },
         {
           "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 859,
-          "sizes": {
-            "javascript": 859
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-          "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-          "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-          "index": 17,
-          "preOrderIndex": 17,
-          "index2": 14,
-          "postOrderIndex": 14,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "issuerName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "issuerPath": [
-            {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-              "name": "./src/index.jsx",
-              "id": null
-            },
-            {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-              "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-              "id": 527
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 354,
-          "issuerId": 527,
-          "chunks": [
-            179
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-              "module": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-              "moduleName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-              "resolvedModule": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-              "type": "cjs export require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./cjs/react-jsx-runtime.production.min.js",
-              "loc": "4:2-71",
-              "moduleId": 527,
-              "resolvedModuleId": 527
-            }
-          ],
-          "usedExports": [
-            "jsx",
-            "jsxs"
-          ],
-          "providedExports": [
-            "Fragment",
-            "jsx",
-            "jsxs"
-          ],
-          "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 10:13-244",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 214,
-          "sizes": {
-            "javascript": 214
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "index": 16,
-          "preOrderIndex": 16,
-          "index2": 15,
-          "postOrderIndex": 15,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "issuerName": "./src/index.jsx",
-          "issuerPath": [
-            {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-              "name": "./src/index.jsx",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 527,
-          "issuerId": null,
-          "chunks": [
-            179
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "module": "./src/App.jsx",
-              "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "5:0-48",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "module": "./src/App.jsx",
-              "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "6:0-50",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "module": "./src/App.jsx",
-              "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "12:22-27",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "module": "./src/App.jsx",
-              "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "14:28-32",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "module": "./src/App.jsx",
-              "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "16:39-43",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "5:0-48",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "6:0-50",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "12:22-27",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "14:28-32",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-              "resolvedModule": "./src/App.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "16:39-43",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-              "resolvedModule": "./src/index.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "6:0-48",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-              "resolvedModule": "./src/index.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "7:65-69",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-              "module": "./src/index.jsx + 3 modules",
-              "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-              "resolvedModule": "./src/index.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react/jsx-runtime",
-              "loc": "8:25-29",
-              "moduleId": 267,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": [
-            "jsx",
-            "jsxs"
-          ],
-          "providedExports": [
-            "Fragment",
-            "jsx",
-            "jsxs"
-          ],
-          "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 4:2-72",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1
-        },
-        {
-          "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 3551,
+          "size": 3405,
           "sizes": {
-            "javascript": 3551
+            "javascript": 3405
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "name": "./src/index.jsx + 3 modules",
           "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "index": 6,
           "preOrderIndex": 6,
-          "index2": 17,
-          "postOrderIndex": 17,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -897,7 +555,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 267,
+          "id": 132,
           "chunks": [
             179
           ],
@@ -922,8 +580,7 @@
           "providedExports": [],
           "optimizationBailout": [
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js: Module is not an ECMAScript module",
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js: Module is not an ECMAScript module",
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js: Module is not an ECMAScript module"
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js: Module is not an ECMAScript module"
           ],
           "depth": 0,
           "modules": [
@@ -931,21 +588,21 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 389,
+              "size": 326,
               "sizes": {
-                "javascript": 389
+                "javascript": 326
               },
               "built": true,
               "codeGenerated": false,
               "buildTimeExecuted": false,
               "cached": false,
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "index": 6,
               "preOrderIndex": 6,
-              "index2": 17,
-              "postOrderIndex": 17,
+              "index2": 15,
+              "postOrderIndex": 15,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -964,7 +621,7 @@
               "usedExports": [],
               "providedExports": [],
               "optimizationBailout": [
-                "Statement (ExpressionStatement) with side effects in source code at 7:0-11:4"
+                "Statement (ExpressionStatement) with side effects in source code at 5:0-7:2"
               ],
               "depth": 0
             },
@@ -972,30 +629,30 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 650,
+              "size": 567,
               "sizes": {
-                "javascript": 650
+                "javascript": 567
               },
               "built": true,
               "codeGenerated": false,
               "buildTimeExecuted": false,
               "cached": false,
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "name": "./src/App.jsx",
               "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "index": 12,
               "preOrderIndex": 12,
-              "index2": 16,
-              "postOrderIndex": 16,
+              "index2": 14,
+              "postOrderIndex": 14,
               "cacheable": true,
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "issuerName": "./src/index.jsx",
               "issuerPath": [
                 {
-                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "name": "./src/index.jsx",
                   "id": null
                 }
@@ -1009,30 +666,30 @@
               "assets": [],
               "reasons": [
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "module": "./src/index.jsx",
                   "moduleName": "./src/index.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "resolvedModule": "./src/index.jsx",
                   "type": "harmony side effect evaluation",
                   "active": true,
                   "explanation": "",
                   "userRequest": "@/App.jsx",
-                  "loc": "5:0-28",
+                  "loc": "4:0-28",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "module": "./src/index.jsx",
                   "moduleName": "./src/index.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "resolvedModule": "./src/index.jsx",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "",
                   "userRequest": "@/App.jsx",
-                  "loc": "8:30-33",
+                  "loc": "6:92-95",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -1072,16 +729,16 @@
               "optional": false,
               "orphan": false,
               "dependent": false,
-              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "issuerName": "./src/App.jsx",
               "issuerPath": [
                 {
-                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "name": "./src/index.jsx",
                   "id": null
                 },
                 {
-                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "name": "./src/App.jsx",
                   "id": null
                 }
@@ -1097,10 +754,10 @@
               "assets": [],
               "reasons": [
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony side effect evaluation",
                   "active": true,
@@ -1111,16 +768,16 @@
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/test.png",
-                  "loc": "16:8-15",
+                  "loc": "7:132-139",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -1153,16 +810,16 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "issuerName": "./src/App.jsx",
               "issuerPath": [
                 {
-                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
                   "name": "./src/index.jsx",
                   "id": null
                 },
                 {
-                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "name": "./src/App.jsx",
                   "id": null
                 }
@@ -1176,10 +833,10 @@
               "assets": [],
               "reasons": [
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony side effect evaluation",
                   "active": true,
@@ -1190,10 +847,10 @@
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony side effect evaluation",
                   "active": true,
@@ -1204,30 +861,30 @@
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/react.svg",
-                  "loc": "16:17-24",
+                  "loc": "7:141-148",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
                 {
-                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "module": "./src/App.jsx",
                   "moduleName": "./src/App.jsx",
-                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+                  "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
                   "resolvedModule": "./src/App.jsx",
                   "type": "harmony import specifier",
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/react.svg",
-                  "loc": "16:44-60",
+                  "loc": "7:186-202",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -1273,7 +930,7 @@
           "issuerName": "./src/styles/main.css",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
@@ -1340,7 +997,7 @@
           "issuerName": "./src/styles/main.css",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
@@ -1407,7 +1064,7 @@
           "issuerName": "./src/styles/main.css",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
@@ -1474,7 +1131,7 @@
           "issuerName": "./src/styles/main.css",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
@@ -1547,7 +1204,7 @@
         "vendor.min.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "ca3dc0df0650461ba57b",
+      "hash": "8d4bf7e3fc1e16f78e54",
       "childrenByOrder": {},
       "id": 736,
       "siblings": [],
@@ -1984,10 +1641,10 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
@@ -1998,21 +1655,21 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "11:20-28",
+              "loc": "6:20-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2022,11 +1679,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "3:0-31",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2036,11 +1693,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "10:22-41",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2050,11 +1707,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "16:34-53",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2064,11 +1721,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "18:45-64",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2078,11 +1735,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "22:18-37",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2092,11 +1749,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "27:19-38",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2106,11 +1763,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "30:18-37",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2120,11 +1777,11 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "32:19-38",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
               "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2134,63 +1791,63 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "34:19-38",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "react",
               "loc": "1:0-33",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "11:20-28",
-              "moduleId": 267,
+              "loc": "6:20-28",
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "react",
               "loc": "1:0-35",
-              "moduleId": 267,
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
               "module": "./src/index.jsx + 3 modules",
               "moduleName": "./src/index.jsx + 3 modules",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "7:70-80",
-              "moduleId": 267,
+              "loc": "6:38-48",
+              "moduleId": 132,
               "resolvedModuleId": null
             },
             {
@@ -2206,20 +1863,6 @@
               "loc": "13:20-36",
               "moduleId": 746,
               "resolvedModuleId": 746
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-              "module": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-              "moduleName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-              "resolvedModule": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "10:19-35",
-              "moduleId": 354,
-              "resolvedModuleId": 354
             },
             {
               "moduleIdentifier": null,
@@ -2902,10 +2545,10 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
@@ -2916,21 +2559,21 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "11:20-28",
+          "loc": "6:20-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2940,11 +2583,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "3:0-31",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2954,11 +2597,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "10:22-41",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2968,11 +2611,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "16:34-53",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2982,11 +2625,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "18:45-64",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -2996,11 +2639,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "22:18-37",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -3010,11 +2653,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "27:19-38",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -3024,11 +2667,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "30:18-37",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -3038,11 +2681,11 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "32:19-38",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -3052,63 +2695,63 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "34:19-38",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "react",
           "loc": "1:0-33",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "11:20-28",
-          "moduleId": 267,
+          "loc": "6:20-28",
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "react",
           "loc": "1:0-35",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "7:70-80",
-          "moduleId": 267,
+          "loc": "6:38-48",
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
@@ -3124,20 +2767,6 @@
           "loc": "13:20-36",
           "moduleId": 746,
           "resolvedModuleId": 746
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-          "module": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-          "moduleName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-          "resolvedModule": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "10:19-35",
-          "moduleId": 354,
-          "resolvedModuleId": 354
         },
         {
           "moduleIdentifier": null,
@@ -3287,28 +2916,28 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 3551,
+      "size": 3405,
       "sizes": {
-        "javascript": 3551
+        "javascript": 3405
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
       "name": "./src/index.jsx + 3 modules",
       "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
       "index": 6,
       "preOrderIndex": 6,
-      "index2": 17,
-      "postOrderIndex": 17,
+      "index2": 15,
+      "postOrderIndex": 15,
       "cacheable": true,
       "optional": false,
       "orphan": false,
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 267,
+      "id": 132,
       "chunks": [
         179
       ],
@@ -3333,8 +2962,7 @@
       "providedExports": [],
       "optimizationBailout": [
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js: Module is not an ECMAScript module",
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js: Module is not an ECMAScript module",
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js: Module is not an ECMAScript module"
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js: Module is not an ECMAScript module"
       ],
       "depth": 0,
       "modules": [
@@ -3342,21 +2970,21 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 389,
+          "size": 326,
           "sizes": {
-            "javascript": 389
+            "javascript": 326
           },
           "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "index": 6,
           "preOrderIndex": 6,
-          "index2": 17,
-          "postOrderIndex": 17,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3374,7 +3002,7 @@
           "usedExports": [],
           "providedExports": [],
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 7:0-11:4"
+            "Statement (ExpressionStatement) with side effects in source code at 5:0-7:2"
           ],
           "depth": 0
         },
@@ -3382,29 +3010,29 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 650,
+          "size": 567,
           "sizes": {
-            "javascript": 650
+            "javascript": 567
           },
           "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "name": "./src/App.jsx",
           "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "index": 12,
           "preOrderIndex": 12,
-          "index2": 16,
-          "postOrderIndex": 16,
+          "index2": 14,
+          "postOrderIndex": 14,
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "issuerName": "./src/index.jsx",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             }
@@ -3418,30 +3046,30 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "module": "./src/index.jsx",
               "moduleName": "./src/index.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "@/App.jsx",
-              "loc": "5:0-28",
+              "loc": "4:0-28",
               "moduleId": null,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "module": "./src/index.jsx",
               "moduleName": "./src/index.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "resolvedModule": "./src/index.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "@/App.jsx",
-              "loc": "8:30-33",
+              "loc": "6:92-95",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -3480,16 +3108,16 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "issuerName": "./src/App.jsx",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "name": "./src/App.jsx",
               "id": null
             }
@@ -3505,10 +3133,10 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
@@ -3519,16 +3147,16 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../assets/test.png",
-              "loc": "16:8-15",
+              "loc": "7:132-139",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -3560,16 +3188,16 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "issuerName": "./src/App.jsx",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
               "name": "./src/index.jsx",
               "id": null
             },
             {
-              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "name": "./src/App.jsx",
               "id": null
             }
@@ -3583,10 +3211,10 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
@@ -3597,10 +3225,10 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony side effect evaluation",
               "active": true,
@@ -3611,30 +3239,30 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../assets/react.svg",
-              "loc": "16:17-24",
+              "loc": "7:141-148",
               "moduleId": null,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "module": "./src/App.jsx",
               "moduleName": "./src/App.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
               "resolvedModule": "./src/App.jsx",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../assets/react.svg",
-              "loc": "16:44-60",
+              "loc": "7:186-202",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -3853,11 +3481,11 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
       "issuerName": "./src/index.jsx",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         }
@@ -3873,31 +3501,31 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "react-dom/client",
           "loc": "2:0-46",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "react-dom/client",
-          "loc": "7:0-10",
-          "moduleId": 267,
+          "loc": "5:0-10",
+          "moduleId": 132,
           "resolvedModuleId": null
         }
       ],
@@ -3918,29 +3546,29 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 650,
+      "size": 567,
       "sizes": {
-        "javascript": 650
+        "javascript": 567
       },
       "built": true,
       "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
       "name": "./src/App.jsx",
       "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
       "index": 12,
       "preOrderIndex": 12,
-      "index2": 16,
-      "postOrderIndex": 16,
+      "index2": 14,
+      "postOrderIndex": 14,
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
       "issuerName": "./src/index.jsx",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         }
@@ -3954,30 +3582,30 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "module": "./src/index.jsx",
           "moduleName": "./src/index.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "@/App.jsx",
-          "loc": "5:0-28",
+          "loc": "4:0-28",
           "moduleId": null,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "module": "./src/index.jsx",
           "moduleName": "./src/index.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "@/App.jsx",
-          "loc": "8:30-33",
+          "loc": "6:92-95",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -3990,245 +3618,6 @@
       ],
       "optimizationBailout": [
         "Dependency (harmony side effect evaluation) with side effects at 1:0-33"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 214,
-      "sizes": {
-        "javascript": 214
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-      "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-      "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-      "index": 16,
-      "preOrderIndex": 16,
-      "index2": 15,
-      "postOrderIndex": 15,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-      "issuerName": "./src/index.jsx",
-      "issuerPath": [
-        {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "name": "./src/index.jsx",
-          "id": null
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 527,
-      "issuerId": null,
-      "chunks": [
-        179
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "module": "./src/App.jsx",
-          "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "5:0-48",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "module": "./src/App.jsx",
-          "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "6:0-50",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "module": "./src/App.jsx",
-          "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "12:22-27",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "module": "./src/App.jsx",
-          "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "14:28-32",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "module": "./src/App.jsx",
-          "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "16:39-43",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "5:0-48",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "6:0-50",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "12:22-27",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "14:28-32",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
-          "resolvedModule": "./src/App.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "16:39-43",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "resolvedModule": "./src/index.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "6:0-48",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "resolvedModule": "./src/index.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "7:65-69",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
-          "module": "./src/index.jsx + 3 modules",
-          "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "resolvedModule": "./src/index.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react/jsx-runtime",
-          "loc": "8:25-29",
-          "moduleId": 267,
-          "resolvedModuleId": null
-        }
-      ],
-      "usedExports": [
-        "jsx",
-        "jsxs"
-      ],
-      "providedExports": [
-        "Fragment",
-        "jsx",
-        "jsxs"
-      ],
-      "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 4:2-72",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1
     },
@@ -4254,11 +3643,11 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
       "issuerName": "./src/index.jsx",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         }
@@ -4272,17 +3661,17 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "resolvedModule": "./src/index.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "@/styles/main.css",
-          "loc": "4:0-27",
-          "moduleId": 267,
+          "loc": "3:0-27",
+          "moduleId": 132,
           "resolvedModuleId": null
         }
       ],
@@ -4407,7 +3796,7 @@
       "issuerName": "./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -4473,7 +3862,7 @@
       "issuerName": "./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -4539,7 +3928,7 @@
       "issuerName": "./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -4605,7 +3994,7 @@
       "issuerName": "./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -4669,16 +4058,16 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
       "issuerName": "./src/App.jsx",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "name": "./src/App.jsx",
           "id": null
         }
@@ -4694,10 +4083,10 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
@@ -4708,16 +4097,16 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "../assets/test.png",
-          "loc": "16:8-15",
+          "loc": "7:132-139",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -4749,16 +4138,16 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
       "issuerName": "./src/App.jsx",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "name": "./src/App.jsx",
           "id": null
         }
@@ -4772,10 +4161,10 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
@@ -4786,10 +4175,10 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony side effect evaluation",
           "active": true,
@@ -4800,30 +4189,30 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "../assets/react.svg",
-          "loc": "16:17-24",
+          "loc": "7:141-148",
           "moduleId": null,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "module": "./src/App.jsx",
           "moduleName": "./src/App.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "resolvedModule": "./src/App.jsx",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "../assets/react.svg",
-          "loc": "16:44-60",
+          "loc": "7:186-202",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -4838,82 +4227,6 @@
       ],
       "optimizationBailout": [
         "Statement (ExportDefaultDeclaration) with side effects in source code at 39:0-129"
-      ],
-      "depth": 2
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 859,
-      "sizes": {
-        "javascript": 859
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-      "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react-jsx-runtime.production.min.js",
-      "nameForCondition": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
-      "index": 17,
-      "preOrderIndex": 17,
-      "index2": 14,
-      "postOrderIndex": 14,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-      "issuerName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-      "issuerPath": [
-        {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
-          "name": "./src/index.jsx",
-          "id": null
-        },
-        {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "name": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "id": 527
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 354,
-      "issuerId": 527,
-      "chunks": [
-        179
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "module": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "moduleName": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\react@18.2.0\\node_modules\\react\\jsx-runtime.js",
-          "resolvedModule": "./node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js",
-          "type": "cjs export require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./cjs/react-jsx-runtime.production.min.js",
-          "loc": "4:2-71",
-          "moduleId": 527,
-          "resolvedModuleId": 527
-        }
-      ],
-      "usedExports": [
-        "jsx",
-        "jsxs"
-      ],
-      "providedExports": [
-        "Fragment",
-        "jsx",
-        "jsxs"
-      ],
-      "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 10:13-244",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2
     },
@@ -5113,12 +4426,12 @@
       "issuerName": "./assets/react.svg",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\App.jsx",
           "name": "./src/App.jsx",
           "id": null
         },
@@ -5153,7 +4466,7 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|6716b657fce94258598108b7d5802e1c",
+          "moduleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx|a38d480c1ce15e361c8f04611da96ae9",
           "module": "./src/index.jsx + 3 modules",
           "moduleName": "./src/index.jsx + 3 modules",
           "resolvedModuleIdentifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\@svgr+webpack@6.5.1\\node_modules\\@svgr\\webpack\\dist\\index.js??ruleSet[1].rules[4].oneOf[0].use[0]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\new-url-loader@0.1.1_webpack@5.75.0\\node_modules\\new-url-loader\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\image-minimizer-webpack-plugin@3.8.1_mawotdtszuy2egvmrz3kn2d6n4\\node_modules\\image-minimizer-webpack-plugin\\dist\\loader.js??ruleSet[1].rules[5]!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
@@ -5163,7 +4476,7 @@
           "explanation": "",
           "userRequest": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\assets\\react.svg",
           "loc": "39:15-117",
-          "moduleId": 267,
+          "moduleId": 132,
           "resolvedModuleId": null
         }
       ],
@@ -5198,7 +4511,7 @@
       "issuerName": "./src/styles/main.css.webpack[javascript/auto]!=!./node_modules/.pnpm/css-loader@6.7.3_webpack@5.75.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.0.2_6jdsrmfenkuhhw3gx4zvjlznce/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.2.0_sass@1.58.3+webpack@5.75.0/node_modules/sass-loader/dist/cjs.js!./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -5286,7 +4599,7 @@
       "issuerName": "./src/styles/main.css.webpack[javascript/auto]!=!./node_modules/.pnpm/css-loader@6.7.3_webpack@5.75.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.0.2_6jdsrmfenkuhhw3gx4zvjlznce/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.2.0_sass@1.58.3+webpack@5.75.0/node_modules/sass-loader/dist/cjs.js!./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -5374,7 +4687,7 @@
       "issuerName": "./src/styles/main.css.webpack[javascript/auto]!=!./node_modules/.pnpm/css-loader@6.7.3_webpack@5.75.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.0.2_6jdsrmfenkuhhw3gx4zvjlznce/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.2.0_sass@1.58.3+webpack@5.75.0/node_modules/sass-loader/dist/cjs.js!./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -5462,7 +4775,7 @@
       "issuerName": "./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -5531,7 +4844,7 @@
       "issuerName": "./src/styles/main.css.webpack[javascript/auto]!=!./node_modules/.pnpm/css-loader@6.7.3_webpack@5.75.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.0.2_6jdsrmfenkuhhw3gx4zvjlznce/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.2.0_sass@1.58.3+webpack@5.75.0/node_modules/sass-loader/dist/cjs.js!./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -5716,7 +5029,7 @@
       "issuerName": "./src/styles/main.css.webpack[javascript/auto]!=!./node_modules/.pnpm/css-loader@6.7.3_webpack@5.75.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.0.2_6jdsrmfenkuhhw3gx4zvjlznce/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.2.0_sass@1.58.3+webpack@5.75.0/node_modules/sass-loader/dist/cjs.js!./src/styles/main.css",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\babel-loader@9.1.2_la66t7xldg4uecmyawueag5wkm\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
+          "identifier": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\node_modules\\.pnpm\\esbuild-loader@3.0.1_webpack@5.75.0\\node_modules\\esbuild-loader\\dist\\index.cjs??ruleSet[1].rules[0].use!C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\src\\index.jsx",
           "name": "./src/index.jsx",
           "id": null
         },
@@ -6204,11 +5517,11 @@
         },
         {
           "name": "main.min.js",
-          "size": 3176
+          "size": 2521
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5007,
+      "assetsSize": 4352,
       "auxiliaryAssets": [
         {
           "name": "static/react.f97109b2930b86db9569.svg",
@@ -6259,11 +5572,11 @@
         },
         {
           "name": "main.min.js",
-          "size": 3176
+          "size": 2521
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 5007,
+      "assetsSize": 4352,
       "auxiliaryAssets": [
         {
           "name": "static/react.f97109b2930b86db9569.svg",
@@ -6313,10 +5626,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "c093e7b75025812cf25f",
+      "hash": "ab9c1bed2ad7c7bd8c92",
       "version": "5.75.0",
-      "time": 137,
-      "builtAt": 1677413181679,
+      "time": 134,
+      "builtAt": 1677415223442,
       "publicPath": "",
       "outputPath": "C:\\Users\\kej19\\Desktop\\react-manual-toolchain_begin\\build",
       "assetsByChunkName": {},
@@ -6341,7 +5654,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "7eb05fd381bbcc76b103",
+          "hash": "2468f27391022ec797e1",
           "childrenByOrder": {},
           "id": 563,
           "siblings": [],

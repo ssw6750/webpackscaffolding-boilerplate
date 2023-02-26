@@ -4,6 +4,7 @@ const createHtmlPlugin = require('./plugins/createHtmlPlugin');
 const styleLoader = require('./loaders/styleLoader');
 const styleModuleLoader = require('./loaders/styleModuleLoader');
 const { resolve } = require('node:path');
+const { esbuildLoader } = require('./loaders/esbuildLoader');
 
 const commonConfig = {
   target: ['web', 'browserslist'],
@@ -34,6 +35,7 @@ const commonConfig = {
         // 어떤 로더를 사용해 파일을 변환할 것인가?
         use: 'babel-loader',
       },
+      esbuildLoader,
       styleLoader,
       styleModuleLoader,
       {

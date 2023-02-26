@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import testPng from '../assets/test.png';
 import testSvg from '../assets/react.svg';
 import { ReactComponent as TestSvgComponent } from '../assets/react.svg';
