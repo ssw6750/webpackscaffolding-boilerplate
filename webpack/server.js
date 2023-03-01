@@ -2,7 +2,7 @@ const serverOptions = {
   host: 'localhost',
   port: 3000,
   hot: true,
-  liveReload: true,
+  liveReload: false,
   compress: true,
   open: false,
   static: ['public'],
